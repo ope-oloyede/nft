@@ -1,0 +1,13 @@
+hr {
+    height: 5px;
+    background: linear-gradient(281.8deg, #9AD5D6 -23.95%, #8C8CDA 83.01%);
+    margin-top: 50px;
+    bottom: 40px;
+    border: none;
+}
+
+@media (max-width: 700px) {
+    hr {
+        display: none;
+    }
+}
