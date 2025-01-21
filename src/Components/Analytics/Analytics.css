@@ -1,0 +1,107 @@
+.built-in {
+    display: flex;
+    margin-top: 50px;
+}
+
+.built-in-left img {
+    width: 555px;
+    height: 488px;
+    padding-left: 260px;
+}
+
+.built-in-right {
+    margin-top: 50px;    
+}
+
+.built-in-right h4 {
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.5px;
+    text-align: left;
+    color: #fff;
+}
+
+.built-in-right h3 {
+    font-family: Outfit;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.built-in-right p {
+    font-size: 17px;
+    font-family: roboto;
+    font-weight: 400;
+    line-height: 27.5px;
+    margin-top: -10%;
+    width: 373px;
+    height: 83px;
+    top: 596px;
+    left: 157px;
+    color: #fff;
+}
+
+.built-in-btn {
+    background: #8C8CDA;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 6px 4px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 700px) {
+    .built-in {
+        flex-direction: column; /* Stack content vertically */
+        margin-top: 30px; /* Adjust margin */
+        align-items: center; /* Centre-align content */
+    }
+
+    .built-in-left img {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+        padding-left: 0; /* Remove extra padding */
+    }
+
+    .built-in-right {
+        margin-top: 20px; /* Add spacing */
+        text-align: center; /* Centre-align text */
+        padding: 0 20px; /* Add horizontal padding */
+    }
+
+    .built-in-right h4 {
+        font-size: 18px; /* Adjust font size */
+        line-height: 24px; /* Adjust line height */
+    }
+
+    .built-in-right h3 {
+        font-size: 28px; /* Adjust font size */
+        line-height: 36px; /* Adjust line height */
+    }
+
+    .built-in-right p {
+        font-size: 15px; /* Adjust font size */
+        line-height: 22px; /* Adjust line height */
+        margin-top: 10px; /* Adjust margin */
+        width: 100%; /* Full width */
+        height: auto; /* Allow flexible height */
+    }
+
+    .built-in-btn {
+        width: auto; /* Adjust button width */
+        font-size: 16px; /* Adjust font size */
+        padding: 12px 30px; /* Adjust padding */
+        margin-top: 20px; /* Add spacing */
+    }
+}

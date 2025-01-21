@@ -1,0 +1,225 @@
+.testimony {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.testimony-top {
+    text-align: center;
+}
+
+.testimony-top p {
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.5px;
+    text-align: center;
+    color: #fff;
+}
+
+.testimony-top h3 {
+    font-family: Outfit;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.testimony-bottom {
+    display: flex;
+    padding-left: 260px;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.testimony-1 {
+    border: none;
+    width: 365px;
+    height: 258px;
+    top: 2559px;
+    left: 158px;
+    gap: 0px;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0px;
+    background: #3939774D;
+}
+
+.testimony-1 img {
+    border-radius: 1000px;
+    height: 120px;
+    position: absolute;
+    left: 30%;
+    margin-top: -50px;
+    transform: translateX(-50%);
+}
+
+.testimony-1 h3 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.5px;
+    color: #fff;
+}
+
+.testimony-1 p {
+    text-align: center;
+    width: 307px;
+    height: 103px;
+    padding-left: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    color: #fff;
+}
+
+.testimony-2 {
+    border: none;
+    width: 365px;
+    height: 258px;
+    top: 2559px;
+    left: 158px;
+    gap: 0px;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0px;
+    background: #3939774D;
+}
+
+.testimony-2 img {
+    border-radius: 1000px;
+    height: 120px;
+    position: absolute;
+    left: 55%;
+    margin-top: -50px;
+    transform: translateX(-50%);
+}
+
+.testimony-2 h3 {
+    text-align: center;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.5px;
+    color: #fff;
+}
+
+.testimony-2 p {
+    text-align: center;
+    width: 307px;
+    height: 103px;
+    padding-left: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    color: #fff;
+}
+
+.testimony-3 {
+    border: none;
+    width: 365px;
+    height: 258px;
+    top: 2559px;
+    left: 158px;
+    gap: 0px;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0px;
+    background: #3939774D;
+}
+
+.testimony-3 img {
+    border-radius: 1000px;
+    height: 120px;
+    position: absolute;
+    left: 79%;
+    margin-top: -50px;
+    transform: translateX(-50%);
+}
+
+.testimony-3 h3 {
+    text-align: center;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.5px;
+    color: #fff;
+}
+
+.testimony-3 p {
+    text-align: center;
+    width: 307px;
+    height: 103px;
+    padding-left: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .testimony {
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .testimony-bottom {
+        flex-direction: column;
+        padding-left: 10px;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .testimony-1,
+    .testimony-2,
+    .testimony-3 {
+        width: 90%;
+        height: auto;
+        border-radius: 15px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .testimony-1 img,
+    .testimony-2 img,
+    .testimony-3 img {
+        height: 70px;
+        left: 50%;
+    }
+
+    .testimony-1 h3,
+    .testimony-2 h3,
+    .testimony-3 h3 {
+        font-size: 18px;
+        margin-top: 80px;
+    }
+
+    .testimony-1 p,
+    .testimony-2 p,
+    .testimony-3 p {
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 0;
+        text-align: center; 
+        width: 290px;
+    }
+
+    .testimony-top p {
+        font-size: 16px;
+    }
+
+    .testimony-top h3 {
+        font-size: 36px;
+        line-height: 48px;
+        margin-top: 10px;
+    }
+}
+
